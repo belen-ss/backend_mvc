@@ -1,6 +1,7 @@
 const mongoose = require ('mongoose');
+const { MONGO_URI } = require('../.env');
 
-const db = 'mongodb+srv://admin:admin@cluster0.vqkai.mongodb.net/backend_db?retryWrites=true&w=majority';
+const db = MONGO_URI;
 
 // Función para hacer la conexión
 
